@@ -34,15 +34,15 @@ For the intial Lab Exercise portion of Lab Project 2 you have been asked to:
    - act as a publishing platform?
    - share to an audience?
 3. Using these prompts and others from the project description:
-   - research various APIs that exists
-   - try to find APIs beyond the standard / big names if that makes sense, why?
+   - research various APIs that exist
+   - try to find APIs beyond the standard / big names if that makes sense. Why?
      - they might be easier to work with than those highly public platforms or
      - have simpler interfaces or
      - have more flexibility
    - consider the type of media and type of interaction you find suitable for your theme or role
      - what APIs fit this?
 4. Select three APIs
-5. Summarize and assemble a list or short summary of:
+5. Assemble a list or short summary of:
    - the authentification process
    - authentication tokens/keys
    - are there specific functions to know?
