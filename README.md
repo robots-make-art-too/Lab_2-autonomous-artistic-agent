@@ -2,6 +2,14 @@
 
 code templates, hints, examples, and general content for our artistic bots
 
+Your critial perspective is important in this project - [read me](https://matita.github.io/min-gh-jekyll/link/how-to-think-about-bots-data-society-points-medium)
+>>
+>> To get a better grip on the questions that bots raise, Sam Woolley, a researcher at the Data & Society institute, organized a workshop that brought together a diverse group of bot experts. This article is the output of the event, a tour of the bot and its semi-autonomy from three perspectives: that of the designer, the implementer, and the regulator. In each, the bot presents unique challenges that have yet to be fully reckoned with by any human.
+>>
+>>    ![first](145623207167282.gif "Just a little exchange")
+>>
+
+
 ## Updates
 
 ### videos
