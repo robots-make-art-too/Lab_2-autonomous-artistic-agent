@@ -27,7 +27,7 @@ twitter said was a mistake -- so use the code as is but I will add a limit to th
 
 ## What to do next
 
-For the intial Lab Exercise portion of Lab Project 2 you have been asked to:
+For the initial Lab Exercise portion of Lab Project 2 you have been asked to:
 
 1. Consider the description of the project
    - are you interested in generating content?
