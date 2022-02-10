@@ -1,3 +1,4 @@
+# I am the same code as tweepy_example.py just with the descriptive and explanatory comments removed
 import cv2
 
 import time
