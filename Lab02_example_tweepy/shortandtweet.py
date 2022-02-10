@@ -61,4 +61,6 @@ result.release()
 
 cv2.destroyAllWindows()
 
-print("The video was successfully saved")
+print("yay")
+text = 'yay'
+print(".. ", text)
