@@ -22,7 +22,7 @@ access_token_secret = tokens[3]
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 
-api = tweepy.API(auth)
+API = tweepy.API(auth)
 
 #==============================================================
 #==============================================================
@@ -38,7 +38,7 @@ api = tweepy.API(auth)
 screen_name = "__CodeBot__"
 
 # fetching the user
-user = api.get_user(screen_name=screen_name)
+user = API.get_user(screen_name=screen_name)
 
 #==============================================================
 # Here we print to the screen
@@ -126,7 +126,11 @@ with open('out.txt', 'w+') as file:
 	file.write("\nHas the authenticated user requested to follow the account? : " + str(user.follow_request_sent))
 	file.write("\nAre notifications of the authenticated user turned on for the account? : " + str(user.notifications))
 
-
+#==============================================================
+#==============================================================
+#
+# ERRORS TO LOOK OUT FOR:
+#
 #==============================================================
 #==============================================================
 # above, I have commented out 3 lines - these return errors
@@ -166,3 +170,34 @@ with open('out.txt', 'w+') as file:
 #
 #==============================================================
 #==============================================================
+#
+# Final errors you might encounter if you try to access an
+# incorrect screen_name
+#
+#==============================================================
+#
+# Traceback (most recent call last):
+#   File "tweepy_get_info.py", line 41, in <module>
+#     user = API.get_user(screen_name=screen_name)
+#   File "/home/unknown/.local/lib/python3.8/site-packages/tweepy/api.py", line 46, in wrapper
+#     return method(*args, **kwargs)
+#   File "/home/unknown/.local/lib/python3.8/site-packages/tweepy/api.py", line 2426, in get_user
+#     return self.request(
+#   File "/home/unknown/.local/lib/python3.8/site-packages/tweepy/api.py", line 261, in request
+#     raise NotFound(resp)
+# tweepy.errors.NotFound: 404 Not Found
+# 50 - User not found.
+#
+#==============================================================
+# Notice these are nearly the same error except in the case 
+# above, the user is not found, screen_name = __CodB__ 
+# and in the case below the user is suspended or it is a 
+# blocked name format, screen_name = _CodeBot
+#==============================================================
+#
+#     return self.request(
+#   File "/home/unknown/.local/lib/python3.8/site-packages/tweepy/api.py", line 259, in request
+#     raise Forbidden(resp)
+# tweepy.errors.Forbidden: 403 Forbidden
+# 63 - User has been suspended.
+
