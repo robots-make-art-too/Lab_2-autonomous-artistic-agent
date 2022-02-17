@@ -1,3 +1,4 @@
+# I am the same code as tweepy_example.py just with the descriptive and explanatory comments removed
 import cv2
 
 import time
@@ -22,7 +23,7 @@ access_token_secret = tokens[3]
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 
-api = tweepy.API(auth)
+API = tweepy.API(auth)
 
 video = cv2.VideoCapture(2)
 if (video.isOpened() == False):
@@ -49,7 +50,7 @@ while(video.isOpened()):
 
       cv2.imwrite('img/Frame.png', frame)
       statusMessage = "Hi I am an image!"
-      api.update_status_with_media(statusMessage,"img/Frame.png")
+      API.update_status_with_media(statusMessage,"img/Frame.png")
 
       break
 
