@@ -27,10 +27,9 @@ API = tweepy.API(auth)
 #==============================================================
 #==============================================================
 # NEW CONTENT: Here is a list of some info we can grab from
-# an account; we will use _CodeBot for the example 
+# an account; we will use __CodeBot__ for the example 
 # 
 # GUESS WHAT? We are doing OOP and JSON without even knowing it
-#
 #==============================================================
 #==============================================================
 
