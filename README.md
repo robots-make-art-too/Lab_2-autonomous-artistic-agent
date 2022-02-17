@@ -16,7 +16,7 @@ Your critial perspective is important in this project - [read me](https://matita
 
 video from Lab session will be available on eClass 
 - have to make a new one.. didn't have lab sessions on auto record
-- ...
+- videos on eClass for both Lab lectures Feb 9 and Feb 16 under LAB INFO section
 
 ### bot
 
@@ -26,6 +26,8 @@ twitter said was a mistake -- so use the code as is but I will add a limit to th
 - screencap shows the posted image
 
 ## What to do next
+
+(Don't forget to do your initial aesthetic lab exercise - read the article [above](https://matita.github.io/min-gh-jekyll/link/how-to-think-about-bots-data-society-points-medium))
 
 For the initial Lab Exercise portion of Lab Project 2 you have been asked to:
 
