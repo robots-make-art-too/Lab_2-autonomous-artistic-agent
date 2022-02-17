@@ -67,10 +67,24 @@ This `Method` returns an `Object` of `Class` _Status_. Here is a list of its `Pa
 
 ## How to run
 
-examples on how to run the sample `.py` file
+Examples on how to run the sample `.py` file. Don't forget you can download, install, and use a `Python` specific `IDE`. We talked about these in `Week 02` .. I currently have the `Spyder` `Python IDE` installed.
 
 ### Linux/Ubuntu
+
+Can probably just `CTL ALT + T` to open a terminal. Then `cd /path/to/where/python/file/is`. Then: 
 
 ```Terminal
 python3 tweepy_get_info.py
 ```
+
+```Python
+# in Spyder
+
+```
+
+### macOS
+
+
+### VSCode on Windows
+
+
