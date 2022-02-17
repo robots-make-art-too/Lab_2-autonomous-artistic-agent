@@ -27,7 +27,7 @@ twitter said was a mistake -- so use the code as is but I will add a limit to th
 
 ## What to do next
 
-(Don't forget to do your initial aesthetic lab exercise - read the article on `front page`)
+(Don't forget to do your initial aesthetic lab exercise - read the article [above](https://matita.github.io/min-gh-jekyll/link/how-to-think-about-bots-data-society-points-medium))
 
 For the initial Lab Exercise portion of Lab Project 2 you have been asked to:
 
