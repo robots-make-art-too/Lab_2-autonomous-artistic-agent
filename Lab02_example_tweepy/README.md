@@ -62,3 +62,15 @@ This `Method` returns an `Object` of `Class` _Status_. Here is a list of its `Pa
 - _long_
 - _place_id_
 - _display_coordinates_
+
+---
+
+## How to run
+
+examples on how to run the sample `.py` file
+
+### Linux/Ubuntu
+
+```Terminal
+python3 tweepy_get_info.py
+```
